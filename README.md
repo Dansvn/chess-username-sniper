@@ -1,5 +1,8 @@
 # Chess Username Sniper
 
+![image](https://github.com/user-attachments/assets/cf0a5fa1-9a7a-4251-9752-4f57db3b1b78)
+
+
 A fast, threaded username availability checker for Chess.com, with optional Discord webhook batch notifications.  
 Designed to efficiently scan and notify about available Chess.com usernames.
 
@@ -60,10 +63,7 @@ python main.py
 Chess Username Sniper is a utility project aimed to help find available Chess.com usernames quickly.  
 No guarantee of uptime or official support.
 
+
 ---
 
-## Contact
-
-For questions or feedback, reach out at:  
-[https://ayo.so/dansvn](https://ayo.so/dansvn)
-
+Made by [hax](https://github.com/6hax) & [dan](https://github.com/Dansvn)
