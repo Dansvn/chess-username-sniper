@@ -52,9 +52,10 @@ def check_username(username, delay=1):
         return username, None, str(e)
 
 def generate_usernames(length, charset=string.ascii_lowercase + string.digits):
+    blocked_usernames = {"buy", "ceo", "cfo", "coo", "cto", "elo", "sex", "web"}
     for p in itertools.product(charset, repeat=length):
         username = ''.join(p)
-        if not username.isdigit():
+        if not username.isdigit() and username not in blocked_usernames:
             yield username
 
 def load_list(filename):
